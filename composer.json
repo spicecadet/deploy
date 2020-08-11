@@ -1,0 +1,29 @@
+{
+    "name": "edmund.turbin/wordpress-starter",
+    "description": "Install development related plugins",
+    "type": "dev",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Edmund Turbin",
+            "email": "edmund.turbin@wpengine.com"
+        }
+    ],
+
+    "repositories":[
+        {
+            "type": "composer",
+            "url": "https://wpackagist.org"
+        }
+    ],
+    
+    "require": {
+        "composer/installers": "~1.0",
+	"wpackagist-plugin/woocommerce":"*",
+        "wpackagist-plugin/debug-bar":"*",
+        "wpackagist-plugin/debug-objects":"*",
+        "wpackagist-plugin/demo-data-creator":"*",
+        "wpackagist-plugin/user-switching":"*",
+        "wpackagist-plugin/content-staging":"*"
+    }  
+}

@@ -77,7 +77,6 @@ wp-content/mysql.sql
 
 # Composer files
 /vendor
-composer.json
 
 # large/disallowed file types
 # a CDN should be used for these
