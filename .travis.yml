@@ -10,5 +10,12 @@ php:
 install:
   - composer install --prefer-dist --no-interaction
  
-script:
+deploy:
+  provider: script
+  skip_cleanup: true
+  script: rsync -r --delete-after --quiet $TRAVIS_BUILD_DIR/public/wp-content edmunddeploy@edmunddeploy.ssh.wpengine.net:/sites/deploy/wp-content
+  on:
+    branch: master
+
+  #rsync -azP testing12.txt edmund@edmund.ssh.wpengine.net:/sites/edmund/testing123.txt
  
