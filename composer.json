@@ -19,11 +19,17 @@
     
     "require": {
         "composer/installers": "~1.0",
-	"wpackagist-plugin/woocommerce":"*",
+	    "wpackagist-plugin/woocommerce":"*",
         "wpackagist-plugin/debug-bar":"*",
         "wpackagist-plugin/debug-objects":"*",
         "wpackagist-plugin/demo-data-creator":"*",
         "wpackagist-plugin/user-switching":"*",
         "wpackagist-plugin/content-staging":"*"
-    }  
+    },
+
+    "extra": {
+        "installer-paths": {
+            "../../plugins/{$name}": ["type:wordpress-plugin"]
+        }
+    }   
 }
