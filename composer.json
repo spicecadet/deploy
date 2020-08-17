@@ -20,6 +20,7 @@
     "require": {
         "composer/installers": "~1.0",
 	    "wpackagist-plugin/woocommerce":"*",
+        "wpackagist-plugin/advanced-custom-fields":"*",
         "wpackagist-plugin/woocommerce-shipping-options":"*",
         "wpackagist-plugin/debug-bar":"*",
         "wpackagist-plugin/debug-objects":"*",
