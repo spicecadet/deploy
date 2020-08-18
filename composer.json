@@ -22,6 +22,7 @@
 	    "wpackagist-plugin/woocommerce":"*",
         "wpackagist-plugin/advanced-custom-fields":"*",
         "wpackagist-plugin/woocommerce-shipping-options":"*",
+        "wpackagist-plugin/theme-check":"*",
         "wpackagist-plugin/debug-bar":"*",
         "wpackagist-plugin/debug-objects":"*",
         "wpackagist-plugin/demo-data-creator":"*",

@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "e9ef2df3af056398beab7283e5204438",
+    "content-hash": "eafe6c53059c119255ef57dd8e7ea7bc",
     "packages": [
         {
             "name": "composer/installers",
@@ -145,15 +145,15 @@
         },
         {
             "name": "wpackagist-plugin/advanced-custom-fields",
-            "version": "5.8.14",
+            "version": "5.9.0",
             "source": {
                 "type": "svn",
                 "url": "https://plugins.svn.wordpress.org/advanced-custom-fields/",
-                "reference": "tags/5.8.14"
+                "reference": "tags/5.9.0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.8.14.zip"
+                "url": "https://downloads.wordpress.org/plugin/advanced-custom-fields.5.9.0.zip"
             },
             "require": {
                 "composer/installers": "~1.0"
@@ -232,6 +232,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/demo-data-creator/"
+        },
+        {
+            "name": "wpackagist-plugin/theme-check",
+            "version": "20200731.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/theme-check/",
+                "reference": "tags/20200731.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/theme-check.20200731.1.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/theme-check/"
         },
         {
             "name": "wpackagist-plugin/user-switching",
