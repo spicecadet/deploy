@@ -20,10 +20,12 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - name: Git checkout
       - uses: actions/checkout@v2
+      
+      - name: Git fetch and unshallow
+        run: git fetch --prune --unshallow
 
-      # Runs a set of commands using the runners shell
       - name: Push to WP Engine
         uses: spicecadet/github-action-deploy-wpengine
         env:
