@@ -20,6 +20,7 @@
     "require": {
         "composer/installers": "~1.0",
 	    "wpackagist-plugin/woocommerce":"*",
+        "wpackagist-plugin/alopeyk-woocommerce-shipping":"*",
         "wpackagist-plugin/theme-check":"*",
         "wpackagist-plugin/debug-bar":"*",
         "wpackagist-plugin/debug-objects":"*",
