@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "039ade6c1335fc349d7818daab54c749",
+    "content-hash": "b42ac9f87d31531f23d48d1d61964bc9",
     "packages": [
         {
             "name": "composer/installers",
@@ -151,24 +151,6 @@
             "time": "2021-01-14T11:07:16+00:00"
         },
         {
-            "name": "wpackagist-plugin/alopeyk-woocommerce-shipping",
-            "version": "2.0.0",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/alopeyk-woocommerce-shipping/",
-                "reference": "tags/2.0.0"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/alopeyk-woocommerce-shipping.2.0.0.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/alopeyk-woocommerce-shipping/"
-        },
-        {
             "name": "wpackagist-plugin/cloudinary-image-management-and-manipulation-in-the-cloud-cdn",
             "version": "2.6.0",
             "source": {
@@ -239,6 +221,24 @@
             },
             "type": "wordpress-plugin",
             "homepage": "https://wordpress.org/plugins/demo-data-creator/"
+        },
+        {
+            "name": "wpackagist-plugin/easyship-woocommerce-shipping-rates",
+            "version": "0.8.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/easyship-woocommerce-shipping-rates/",
+                "reference": "tags/0.8.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/easyship-woocommerce-shipping-rates.0.8.4.zip"
+            },
+            "require": {
+                "composer/installers": "~1.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/easyship-woocommerce-shipping-rates/"
         },
         {
             "name": "wpackagist-plugin/theme-check",
