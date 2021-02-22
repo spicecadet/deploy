@@ -20,6 +20,7 @@
     "require": {
         "composer/installers": "~1.0",
 	    "wpackagist-plugin/woocommerce":"*",
+        "wpackagist-plugin/easyship-woocommerce-shipping-rates":"*",
         "wpackagist-plugin/theme-check":"*",
         "wpackagist-plugin/debug-bar":"*",
         "wpackagist-plugin/debug-objects":"*",
